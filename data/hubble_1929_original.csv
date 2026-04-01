@@ -1,0 +1,39 @@
+# Hubble's 1929 Original Data — Reconstructed from the Historic Paper
+# Source: Hubble, E. (1929). "A Relation Between Distance Among Extra-Galactic Nebulae
+#         and Their Velocities." PNAS, 15(3), 168–173.
+# Distances originally estimated by Hubble using Cepheids and apparent brightness.
+# Velocities from Slipher (1917, 1922), Stromberg, and Humason.
+# NOTE: Distances are now known to be systematically underestimated by factor ~7
+#       due to a zero-point error in the Cepheid period-luminosity calibration.
+#       Hubble's derived H0 ~ 500 km/s/Mpc; modern value ~70 km/s/Mpc.
+# modern_d_Mpc: current best distance estimate for comparison
+#
+nebula,hubble_distance_Mpc,hubble_velocity_km_s,modern_d_Mpc,modern_v_km_s,notes
+S. Mag.,0.032,170,0.063,-179,Small Magellanic Cloud; negative v = approaching
+L. Mag.,0.034,290,0.050,278,Large Magellanic Cloud
+NGC 6822,0.214,-130,0.490,-57,Barnard's Galaxy; Local Group
+NGC 221,0.263,-185,0.817,-200,M32; companion to Andromeda
+NGC 224,0.275,-220,0.785,-301,Andromeda Galaxy; approaching us
+NGC 598,0.275,-70,0.869,-179,M33 Triangulum; Local Group
+NGC 4449,0.449,200,4.21,207,
+NGC 4214,0.500,300,2.94,291,
+NGC 3031,0.490,-30,3.63,-34,M81; one of closest spirals
+NGC 3034,0.490,290,3.53,203,M82; interacting with M81
+NGC 3627,0.490,650,9.05,731,M66; Leo Triplet
+NGC 4826,0.500,150,4.41,408,Black Eye Galaxy
+NGC 5194,0.500,270,7.85,463,M51 Whirlpool
+NGC 4736,0.500,290,4.66,302,M94
+NGC 4258,0.500,448,7.27,448,M106; maser galaxy
+NGC 4151,1.000,960,15.8,995,Seyfert 1 nucleus
+NGC 4382,1.100,500,17.9,729,M85 Virgo cluster
+NGC 4472,1.100,850,16.7,981,M49 Virgo cluster
+NGC 4486,1.100,800,16.4,1285,M87 Virgo cluster
+NGC 4649,1.100,1090,16.5,1110,M60 Virgo cluster
+NGC 4321,1.100,450,16.2,1572,M100 Virgo cluster; velocity listed low in paper
+NGC 1023,1.100,300,11.1,637,
+NGC 3379,1.100,910,10.3,903,M105 Leo
+NGC 4889,2.000,1090,102,6495,Coma cluster; Hubble's distance wildly underestimated
+NGC 1068,0.500,1120,10.1,1137,M77 Seyfert galaxy
+NGC 4826_2,0.500,1130,4.41,408,Duplicate entry in original paper (error by Hubble)
+NGC 7619,2.000,3910,51.4,3737,Perseus cluster
+Virgo Cluster,2.000,890,16.5,1136,Mean of cluster members in paper

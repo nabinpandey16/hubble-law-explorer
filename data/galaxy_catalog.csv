@@ -1,0 +1,61 @@
+# Real Galaxy Catalog — Distance, Redshift, Recession Velocity
+# Sources: NASA/IPAC Extragalactic Database (NED), HyperLeda, Tully et al. 2016 (Cosmicflows-3)
+# H0 assumed = 70 km/s/Mpc for velocity column where v not directly measured
+# z_helio = heliocentric redshift; v_recession = cz (km/s); d_Mpc = distance in megaparsecs
+# Distances from Cepheids, TRGB, SBF, or TF relation as noted
+# Peculiar velocities NOT subtracted — raw observed values
+#
+galaxy_name,common_name,ra_deg,dec_deg,z_helio,v_recession_km_s,d_Mpc,d_method,morphology,group
+NGC 224,Andromeda,10.685,-41.269,-0.001004,-301,0.785,Cepheid+TRGB,SA(s)b,Local Group
+NGC 598,M33,23.462,30.660,-0.000597,-179,0.869,Cepheid,SAcd,Local Group
+NGC 300,NGC 300,13.723,-37.684,0.000483,145,2.00,Cepheid,SA(s)d,Sculptor Group
+NGC 253,Sculptor Galaxy,11.888,-25.288,0.000811,243,3.94,TRGB,SAB(s)c,Sculptor Group
+NGC 5128,Centaurus A,201.365,-43.019,0.001825,547,3.84,TRGB+PN,S0 pec,Centaurus Group
+NGC 4736,M94,192.721,41.120,0.001008,302,4.66,Cepheid,RSab,CVn I Group
+NGC 5236,M83,204.254,-29.866,0.001711,513,4.79,Cepheid,SAB(s)c,Centaurus Group
+NGC 4258,M106,184.740,47.304,0.001494,448,7.27,Maser,SAB(s)bc,CVn II Group
+NGC 3031,M81,148.888,69.065,-0.000113,-34,3.63,Cepheid,SA(s)ab,M81 Group
+NGC 3034,M82,148.970,69.681,0.000677,203,3.53,TRGB,I0,M81 Group
+NGC 4594,Sombrero,189.998,-11.623,0.003416,1024,9.55,SBF,SA(s)a,Virgo S Cloud
+NGC 4472,M49,187.445,8.000,0.003272,981,16.72,SBF,E2/S0,Virgo Cluster
+NGC 4486,M87,187.706,12.391,0.004283,1285,16.40,SBF+Maser,cD E0+jets,Virgo Cluster
+NGC 4649,M60,190.917,11.553,0.003702,1110,16.46,SBF,E2,Virgo Cluster
+NGC 4321,M100,185.729,15.822,0.005240,1572,16.22,Cepheid,SAB(s)bc,Virgo Cluster
+NGC 4303,M61,185.479,4.474,0.005240,1572,16.07,Cepheid,SAB(rs)bc,Virgo Cluster
+NGC 4382,M85,186.035,18.191,0.002432,729,17.89,SBF,SA0+(s) pec,Virgo Cluster
+NGC 4552,M89,188.916,12.556,0.001244,373,15.82,SBF,E0,Virgo Cluster
+NGC 1365,NGC 1365,53.402,-36.140,0.005457,1636,19.57,Cepheid,SB(s)b,Fornax Cluster
+NGC 1316,Fornax A,50.674,-37.208,0.005871,1760,20.94,SBF+SNe,SAB(s)0 pec,Fornax Cluster
+NGC 1399,NGC 1399,54.621,-35.451,0.004753,1425,20.85,SBF,cD E1,Fornax Cluster
+NGC 1404,NGC 1404,54.716,-35.594,0.006494,1947,21.08,SBF,E1,Fornax Cluster
+NGC 4526,NGC 4526,188.513,7.699,0.002058,617,17.04,SBF,SAB(s)0,Virgo S Cloud
+NGC 4038,Antennae,180.474,-18.868,0.005477,1642,22.00,TRGB,SB(s)m pec,Field
+NGC 4039,Antennae,180.481,-18.885,0.005477,1642,22.00,TRGB,SA(s)m pec,Field
+NGC 3351,M95,160.991,11.704,0.002596,779,9.96,Cepheid,SB(r)b,Leo I Group
+NGC 3368,M96,161.691,11.820,0.002878,864,10.05,Cepheid,SAB(rs)ab,Leo I Group
+NGC 3379,M105,161.957,12.582,0.003010,903,10.30,SBF,E1,Leo I Group
+NGC 3623,M65,169.733,13.092,0.002643,793,11.32,Cepheid,SAB(rs)a,Leo Triplet
+NGC 3627,M66,170.062,12.991,0.002438,731,9.05,Cepheid,SAB(s)b,Leo Triplet
+NGC 2403,NGC 2403,114.214,65.602,0.000439,132,3.22,Cepheid,SAB(s)cd,M81 Group
+NGC 7331,NGC 7331,339.267,34.416,0.002722,816,14.72,Cepheid,SA(s)b,Field
+NGC 4826,M64,194.182,21.683,0.001360,408,4.41,Cepheid,RSab,CVn I Group
+NGC 5457,M101,210.802,54.349,0.000804,241,6.85,Cepheid,SAB(rs)cd,M101 Group
+NGC 6946,Fireworks,308.718,60.154,0.000133,40,6.80,Cepheid,SAB(rs)cd,Field
+NGC 925,NGC 925,36.820,33.579,0.001806,542,9.29,Cepheid,SAB(s)d,NGC 1023 Group
+NGC 1637,NGC 1637,70.371,-2.857,0.002387,716,11.70,Cepheid,SAB(rs)c,Eridanus Group
+NGC 2090,NGC 2090,88.398,-34.252,0.002888,867,11.75,Cepheid,SA(rs)b,Field
+NGC 3319,NGC 3319,159.971,41.686,0.003671,1101,14.03,Cepheid,SB(rs)cd,CVn I Group
+NGC 3198,NGC 3198,154.978,45.550,0.002198,659,14.10,Cepheid,SB(rs)c,CVn I Group
+NGC 2541,NGC 2541,122.493,49.061,0.001811,543,11.22,Cepheid,SA(s)cd,Field
+IC 4182,IC 4182,196.459,37.605,0.000987,296,4.49,Cepheid,SA(s)m,CVn I Group
+NGC 4414,NGC 4414,186.613,31.224,0.002414,724,17.70,Cepheid,SA(rs)c,Field
+NGC 4496A,NGC 4496A,187.917,3.937,0.006418,1925,14.86,Cepheid,SB(rs)m,Virgo Cluster
+NGC 4548,M91,188.862,14.496,0.001541,462,16.22,Cepheid,SB(rs)b,Virgo Cluster
+NGC 4725,NGC 4725,192.611,25.501,0.004013,1204,12.44,Cepheid,SAB(r)ab pec,Coma I Cloud
+NGC 7541,NGC 7541,348.686,4.534,0.009258,2777,35.0,TF,SB(rs)bc,Field
+NGC 1421,NGC 1421,55.499,-13.489,0.009875,2963,38.5,TF,SAB(rs)c,Field
+NGC 801,NGC 801,31.020,22.011,0.016953,5086,72.0,TF,Sc,Field
+UGC 2885,UGC 2885,56.441,35.579,0.019319,5796,80.1,TF,SA(r)c,Field
+NGC 2715,NGC 2715,134.098,78.111,0.004541,1362,17.0,TF,SAB(rs)c,Field
+NGC 7606,NGC 7606,350.853,-8.487,0.004629,1388,27.1,TF,SA(s)b,Field
+NGC 4258_v2,M106_maser,184.740,47.304,0.001494,448,7.60,Maser (Herrnstein),SAB(s)bc,CVn II

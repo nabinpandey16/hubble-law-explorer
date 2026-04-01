@@ -1,0 +1,34 @@
+# Hubble Tension Measurements — H0 in km/s/Mpc
+# Compiled from published papers as of 2024
+# sigma_low and sigma_high are 1-sigma uncertainties (asymmetric where reported)
+# probe_type: "early" = anchored to early universe physics; "late" = distance ladder; "independent" = neither
+# tension_vs_planck: discrepancy in units of sigma relative to Planck 2018 (67.4 ± 0.5)
+#
+experiment,year,H0_central,sigma_low,sigma_high,probe_type,anchor,reference,tension_vs_planck_sigma,notes
+Planck 2018 (TT+TE+EE+lowE),2020,67.36,0.54,0.54,early,CMB power spectrum,Planck Collaboration 2020 A&A 641 A6,0.0,Primary CMB measurement; baseline for tension
+Planck 2018 + lensing,2020,67.27,0.60,0.60,early,CMB power spectrum + lensing,Planck Collaboration 2020 A&A 641 A8,0.0,Includes CMB lensing reconstruction
+ACT DR4,2020,67.9,1.5,1.5,early,CMB power spectrum,Aiola et al. 2020 JCAP,0.35,Atacama Cosmology Telescope; consistent with Planck
+SPT-3G 2018,2022,68.8,1.5,1.5,early,CMB power spectrum,Balkenhol et al. 2023,0.93,South Pole Telescope; slight preference for higher H0
+WMAP 9-year,2013,70.0,2.2,2.2,early,CMB power spectrum,Hinshaw et al. 2013 ApJS 208 19,1.18,Pre-Planck; larger uncertainty
+BAO + BBN (Addison),2021,67.6,1.1,1.1,early,BAO scale + primordial deuterium,Addison et al. 2021 ApJ,0.18,Bypasses CMB entirely; consistent with Planck
+BAO BOSS DR12,2017,67.6,0.7,0.7,early,BAO + Planck prior,Alam et al. 2017 MNRAS 470,0.0,Combined BAO; anchored to sound horizon
+DESI BAO 2024,2024,68.52,0.62,0.62,early,BAO scale,DESI Collaboration 2024 arXiv:2404,1.79,First DESI full data release; mild tension
+SH0ES 2022 (Cepheid+SNe Ia),2022,73.04,1.04,1.04,late,Cepheid Period-Luminosity,Riess et al. 2022 ApJL 934 L7,5.0,Strongest local measurement; 5-sigma tension
+SH0ES 2021,2021,73.2,1.3,1.3,late,Cepheid Period-Luminosity,Riess et al. 2021 ApJL 908 L6,4.2,Previous SH0ES result
+SH0ES 2019,2019,74.03,1.42,1.42,late,Cepheid Period-Luminosity,Riess et al. 2019 ApJL 876 85,4.4,Tension declared at 4.4-sigma
+H0LiCOW (6 lenses),2020,73.3,1.8,1.7,independent,Strong gravitational lensing time-delay,Wong et al. 2020 MNRAS 498 1420,2.5,H0 Lenses in COSMOGRAIL Wellspring
+TDCOSMO + SLACS,2020,74.2,1.6,2.2,independent,Strong lensing + stellar kinematics,Birrer et al. 2020 A&A 643 A165,3.1,Relaxed mass profile assumptions
+TDCOSMO refactored,2020,67.4,4.1,4.3,independent,Strong lensing + kinematics (MST-free),Birrer et al. 2020 A&A,0.0,With mass-sheet degeneracy freed; consistent with Planck
+CCHP TRGB 2021,2021,69.8,1.7,1.7,late,Tip of Red Giant Branch,Freedman et al. 2021 ApJ 919 16,1.4,Lower than SH0ES Cepheid; intermediate value
+CCHP JWST 2024,2024,69.96,1.05,1.05,late,TRGB + JAGB (JWST),Freedman 2024 arXiv:2408,2.4,JWST calibration; lower than SH0ES
+Megamaser Cosmology Project,2020,73.9,3.0,3.0,independent,Water maser geometric distances,Pesce et al. 2020 ApJL 891 L1,2.1,NGC 4258 anchor; geometric and direct
+LIGO O3 GW + EM (GW170817),2023,68.0,8.0,14.0,independent,Gravitational wave standard siren,Abbott et al. 2023 ApJL,0.07,Single event; large uncertainty; consistent with both
+LIGO O3 multiple GW events,2023,68.0,8.0,12.0,independent,GW standard sirens combined,LVK Collaboration 2023,0.0,Approaching percent-level with more events
+Surface Brightness Fluctuations (SBF),2021,73.3,2.5,2.5,late,SBF distance indicator,Blakeslee et al. 2021 ApJ 911 65,2.3,Consistent with SH0ES; independent calibration
+Type II Supernovae,2023,75.4,3.8,3.8,late,Expanding photosphere method,de Jaeger et al. 2023,2.1,Fully independent of Cepheids
+Tully-Fisher (Cosmicflows-4),2023,74.6,0.5,0.5,late,Tully-Fisher relation,Tully et al. 2023 ApJ,14.4,Statistical; systematic uncertainty larger
+Baryonic Tully-Fisher,2020,75.1,2.3,2.3,late,BTFR,Schombert et al. 2020 AJ,3.3,Baryonic (HI + stellar) mass vs velocity
+EHT M87 black hole shadow,2020,64.4,11.0,8.3,independent,Black hole shadow angular size,The EHT Collaboration 2020 ApJL,0.27,Shadow + jet kinematics; large uncertainty
+Quasar time-delay (PEREGRINE),2023,71.5,2.8,4.5,independent,Gravitational lensing,Nightingale et al. 2023,1.4,New approach; intermediate value
+Cosmic chronometers (H(z)),2022,67.4,4.7,4.7,independent,Differential galaxy ages,Moresco et al. 2022 ApJS,0.0,Model-independent; large scatter
+CMB lensing + DESI + BBN,2024,68.3,1.1,1.1,early,Joint early-universe,DESI+ACT 2024,0.77,Post-DESI combination
